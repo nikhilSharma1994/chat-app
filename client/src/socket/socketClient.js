@@ -14,7 +14,8 @@ if(!userData || (socket && socket.connected)) return ;    // if user data not av
 
 // if any above statement true then 
 socket = io(backendUrl, {
-    query:{
+     transports: ["websocket"],
+    query:{ 
         userId:userData._id
     }
 });

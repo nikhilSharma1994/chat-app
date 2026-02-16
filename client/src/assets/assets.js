@@ -23,7 +23,14 @@ import pic3 from './pic3.png'
 import pic4 from './pic4.png'
 import img1 from './img1.jpg'
 import img2 from './img2.jpg'
-
+import micOn_icon from './micon.svg'
+import micOff_icon from './micoff.svg'
+import videoCameraOn_icon from './videocameraon.svg'
+import videoCameraOff_icon from './videocameraoff.svg'
+import speaker_icon from './icons8-speaker-50.png'
+import speaker_off from './icons8-speaker-off-64.png'
+import video_ringtone  from '../assets/ringtone/whatsapp_ringtone.mp3'
+import flip_camera  from './flip_camera.png'
 
 const assets = {
     avatar_icon,
@@ -40,7 +47,15 @@ const assets = {
     bgImage,
     profile_martin,
     audio_icon,
-    video_icon
+    video_icon,
+    micOn_icon,
+    micOff_icon,
+    videoCameraOn_icon,
+    videoCameraOff_icon,
+    speaker_icon,
+    speaker_off,
+    video_ringtone,
+    flip_camera,
 }
 
 export default assets;

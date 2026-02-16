@@ -29,13 +29,13 @@ const ProfilePage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // CASE 1: Only name & bio update
+    //  Only name & bio update
     if (!selectedImage) {
       await dispatch(updateProfile({ fullName: name, bio }));
       return navigate('/');
     }
 
-    // CASE 2: With image
+    //  With image
     const reader = new FileReader();
     reader.readAsDataURL(selectedImage);
 

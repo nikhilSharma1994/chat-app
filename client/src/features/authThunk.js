@@ -1,7 +1,7 @@
 // check if user is authenticated and if yes , set the user data and connect the socket 
 
 import toast from 'react-hot-toast';
-import axios from 'axios';
+
 import  {setAuthUser, setOnlineUsers} from './authSlice'
 import { connectSocket, getSocket } from '../socket/socketClient';
 import api , { setToken } from '../api/api';

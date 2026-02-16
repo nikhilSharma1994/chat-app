@@ -2,11 +2,13 @@ import axios from 'axios';
 
 const backendUrl = import.meta.env.VITE_BACKEND_URL;
 
+// Set global default header for all axios instances
+axios.defaults.headers.common['ngrok-skip-browser-warning'] = 'true';
+
 const api = axios.create({
-    baseURL:backendUrl
+    baseURL: backendUrl
 });
 
-// here we are adding the token to axios default header and evry request automatically gets token 
 export const setToken = (token) => {
     if(token){
         api.defaults.headers.common["token"] = token;
@@ -15,10 +17,4 @@ export const setToken = (token) => {
     }
 };
 
-
-
-export default api ; 
-
-
-
-
+export default api;

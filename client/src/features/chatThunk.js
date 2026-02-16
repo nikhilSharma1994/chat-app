@@ -2,7 +2,7 @@
 import api from "../api/api";
 import { setUsers, setUnseenMessages, setMessages, setSelectedUser } from './chatSlice'
 import toast from "react-hot-toast";
-import axios from "axios";
+
 import { getSocket } from "../socket/socketClient";
 
 
