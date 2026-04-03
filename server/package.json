@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "scripts": {
-    "dev": "nodemon server.js",
-    "start": "node server.js"
-  },
+"scripts": {
+  "dev": "nodemon ./api/server.js",
+"start": "node ./api/server.js"
+},
   "type": "module",
   "keywords": [],
   "author": "",
