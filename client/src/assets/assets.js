@@ -16,7 +16,7 @@ import arrow_icon from './arrow_icon.png'
 import audio_icon from './audio.png'
 import video_icon from './video.png'
 import code from './code.svg'
-import bgImage from './bgImage.svg'
+//import bgImage from './bgImage.svg'
 import pic1 from './pic1.png'
 import pic2 from './pic2.png'
 import pic3 from './pic3.png'
@@ -44,7 +44,7 @@ const assets = {
     menu_icon,
     arrow_icon,
     code,
-    bgImage,
+    //bgImage,
     profile_martin,
     audio_icon,
     video_icon,

@@ -11,7 +11,14 @@
     display: none;
 }
 html,
-body,
+body {
+  height: 100%;
+  background-image: url('/bgImage.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 #root {
   height: 100%;
 }
