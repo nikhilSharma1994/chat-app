@@ -5,7 +5,7 @@
 import message from "../models/message.js";
 import user from "../models/user.js";
 import cloudinary from '../lib/cloudinary.js';
-import {io,userSocketMap} from '../server.js';
+import {io,userSocketMap} from '../api/server.js';
 
 export const getUsersForSidebar = async (req,res) => {
     try {
