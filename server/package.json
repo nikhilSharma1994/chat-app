@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-"scripts": {
-  "dev": "nodemon ./api/server.js",
-"start": "node ./api/server.js"
-},
+  "scripts": {
+    "dev": "nodemon ./api/server.js",
+    "build": "react-scripts build",
+    "start": "node ./api/server.js"
+  },
   "type": "module",
   "keywords": [],
   "author": "",
@@ -21,6 +22,7 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^9.0.0",
     "nodemon": "^3.1.11",
+    "react-scripts": "^5.0.1",
     "socket.io": "^4.8.1"
   }
 }
